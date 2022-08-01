@@ -1,0 +1,16 @@
+{
+  "Comment": "A Hello World example demonstrating various state types of the Amazon States Language",
+  "StartAt": "redeem",
+  "States": {
+    "redeem": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:us-east-1:201136940110:activity:redeem",
+      "Next": "finilize"
+    },
+    "finilize": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:us-east-1:201136940110:activity:finalize",
+      "End": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+server:
+  port: 8080
+aws:
+  region: us-east-1
+  credentials:
+#    accessKey: AWS_KEY
+#    secretKey: AWS_SECRET
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
