@@ -1,4 +1,4 @@
-#How to run the app
+# How to run the app
 - define step function workflow as defined in stepfunction.json
 - run ```docker-compose up -d```
 - go to your browser at http://localhost:15672/#/exchanges
